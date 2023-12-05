@@ -5,32 +5,36 @@
 </p-panel>
 
 
-<p-toolbar class="p-2">
+<p-toolbar [style]="{'justify-content': 'center'}">
     <p-button
+      class="mx-2"
       label="ToggleCase"
       icon="pi pi-search"
       (onClick)="toggleUpperCase()"
       [style]="{'width': '170px'}"
     ></p-button>
     <p-button
-      (onClick)="changeOrder('name')"
+      class="mx-2"
       label="Por nombre"
       icon="pi pi-sort"
       severity="success"
+      (onClick)="changeOrder('name')"
       [style]="{'width': '170px'}"
     ></p-button>
     <p-button
-      (onClick)="changeOrder('canFly')"
+      class="mx-2"
       label="Por volar"
       icon="pi pi-sort"
       severity="warning"
+      (onClick)="changeOrder('canFly')"
       [style]="{'width': '170px'}"
     ></p-button>
     <p-button
-      (onClick)="changeOrder('color')"
+      class="mx-2"
       label="Por color"
       icon="pi pi-sort"
       severity="danger"
+      (onClick)="changeOrder('color')"
       [style]="{'width': '170px'}"
     ></p-button>
 </p-toolbar>
