@@ -40,8 +40,9 @@ export class MenuComponent {
         icon: 'pi pi-fw pi-cog',
         items: [
           {
-            label: 'Otros pipes',
-            icon: 'pi pi-fw pi-cart-plus'
+            label: 'Custom Pipes',
+            icon: 'pi pi-fw pi-plus-circle',
+            routerLink: 'custom',
           }
         ]
       }
