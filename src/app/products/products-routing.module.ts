@@ -8,7 +8,7 @@ import { OrderComponent } from './pages/order/order.component';
 
 const routes: Routes = [
   {
-    path: 'text',
+    path: '',
     component: BasicsPageComponent
   },
   {
@@ -25,7 +25,7 @@ const routes: Routes = [
   },
   {
     path: '**',
-    redirectTo: 'text'
+    redirectTo: ''
   }
 ];
 
